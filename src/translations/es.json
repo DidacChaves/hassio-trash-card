@@ -1,0 +1,139 @@
+{
+    "editor": {
+        "form": {
+            "color_picker": {
+                "values": {
+                    "default": "Color predeterminado"
+                }
+            },
+            "day_style": {
+                "title": "Mostrar hora del evento como",
+                "values": {
+                    "default": "Fecha",
+                    "counter": "días para",
+                    "weekday": "Día de la semana",
+                    "custom": "Formato de fecha personalizado"
+                }
+            },
+            "day_style_format": {
+                "title": "Formato de fecha personalizado",
+                "helper": "Define tu propio formato de fecha. (dd = día con 0 inicial, d = día, MM = mes con 0 inicial, M = mes, yy = año corto, yyyy = año largo) Ej: dd.MM.yyyy = 03.04.2024, mientras que d.M.yy = 3.4.24."
+            },
+            "card_style": {
+                "title": "Mostrar como",
+                "values": {
+                    "card": "Tarjeta estándar",
+                    "chip": "Tarjeta chip",
+                    "icon": "Icono"
+                }
+            },
+            "alignment_style": {
+                "title": "Alineación",
+                "values": {
+                    "left": "izquierda",
+                    "center": "centrado",
+                    "right": "derecha",
+                    "space": "espaciado"
+                }
+            },
+            "color_mode": {
+                "title": "Aplicar color a",
+                "values": {
+                    "background": "Fondo",
+                    "icon": "Icono"
+                }
+            },
+            "layout_picker": {
+                "values": {
+                    "default": "Diseño predeterminado",
+                    "vertical": "Diseño vertical",
+                    "horizontal": "Diseño horizontal"
+                }
+            },
+            "tabs": {
+                "settings": "Configuración",
+                "appearance": "Apariencia",
+                "patterns": "Patrones"
+            },
+            "refresh_rate": {
+                "title": "Intervalo de actualización",
+                "helper": "Comprobar cambios en el calendario cada x minutos"
+            },
+            "location": {
+                "title": "Ubicación",
+                "helper": "Filtrar eventos por ubicación dada. Si no se especifica, se usan todos."
+            },
+            "only_all_day_events": {
+                "title": "Solo eventos de todo el día",
+                "helper": "Activa esta opción si solo quieres usar eventos de todo el día, de lo contrario se usarán todos."
+            }
+        },
+        "card": {
+            "generic": {
+                "icon_color": "Color del icono",
+                "layout": "Diseño",
+                "fill_container": "Llenar contenedor",
+                "next_days": "Días en el futuro",
+                "filter_events": "Filtrar eventos por patrones",
+                "drop_todayevents_from": "Desde qué hora ocultar eventos de todo el día",
+                "full_size": "Tarjeta sin margen",
+                "use_summary": "Resumen del evento en lugar de etiqueta",
+                "hide_time_range": "Ocultar hora",
+                "event_grouping": "Mostrar solo el próximo evento por patrón",
+                "icon_size": "Tamaño del icono",
+                "with_label": "Mostrar etiqueta"
+            },
+            "trash": {
+                "pattern": {
+                    "title": "Editar patrón",
+                    "edit": "editar",
+                    "delete": "eliminar",
+                    "create": "Crear nuevo patrón",
+                    "new_custom_label": "Nuevo patrón",
+                    "type": {
+                        "organic": "Orgánico",
+                        "paper": "Papel",
+                        "recycle": "Reciclaje",
+                        "waste": "Basura",
+                        "others": "Otros"
+                    },
+                    "fields": {
+                        "label": "Etiqueta",
+                        "color": "Color",
+                        "icon": "Icono",
+                        "pattern": "Patrón de detección",
+                        "pattern_exact": "Usar patrón exacto",
+                        "pattern_exact_description": "Usar el patrón como término de búsqueda, que debe ser 100% idéntico a la descripción del evento del calendario. La búsqueda no distingue mayúsculas/minúsculas.",
+                        "picture_url": "URL de la imagen",
+                        "picture_url_description": "Si se especifica una URL de imagen, se mostrará la imagen correspondiente en lugar del icono. Coloca una imagen en la carpeta `/config/www` y usa `/local/[nombrearchivo]`."
+                    }
+                }
+            }
+        }
+    },
+    "card": {
+        "not_found": {
+            "title": "No hay entidades definidas",
+            "description": "Selecciona al menos una entidad de calendario para que TrashCard funcione."
+        },
+        "empty": {
+            "description": "Actualmente no se encontraron eventos. Este mensaje solo está disponible durante la edición."
+        },
+        "trash": {
+            "today": "hoy",
+            "tomorrow": "mañana",
+            "day": "<DAY>",
+            "today_from_till": "Hoy\nde <START> a <END>",
+            "tomorrow_from_till": "Mañana\nentre <START> y <END>",
+            "day_from_till": "<DAY>\nentre <START> y <END>",
+            "daysleft": "en <DAYS> día",
+            "daysleft_more": "en <DAYS> días",
+            "daysleft_from_till": "en <DAYS> día\nentre <START> y <END>",
+            "daysleft_more_from_till": "en <DAYS> días\nentre <START> y <END>",
+            "daysleftend": "termina en <DAYS> día",
+            "daysleftend_more": "termina en <DAYS> días",
+            "daysleftend_till": "termina en <DAYS> día\na las <END>",
+            "daysleftend_more_till": "termina en <DAYS> días\na las <END>"
+        }
+    }
+}

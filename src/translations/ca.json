@@ -1,0 +1,139 @@
+{
+    "editor": {
+        "form": {
+            "color_picker": {
+                "values": {
+                    "default": "Color per defecte"
+                }
+            },
+            "day_style": {
+                "title": "Mostra l'hora de l'esdeveniment com",
+                "values": {
+                    "default": "Data",
+                    "counter": "dies per a",
+                    "weekday": "Dia de la setmana",
+                    "custom": "Format de data personalitzat"
+                }
+            },
+            "day_style_format": {
+                "title": "Format de data personalitzat",
+                "helper": "Defineix el teu propi format de data. (dd = dia amb 0 inicial, d = dia, MM = mes amb 0 inicial, M = mes, yy = any curt, yyyy = any llarg) Ex: dd.MM.yyyy = 03.04.2024, mentre que d.M.yy = 3.4.24."
+            },
+            "card_style": {
+                "title": "Mostra com",
+                "values": {
+                    "card": "Targeta estàndard",
+                    "chip": "Targeta xip",
+                    "icon": "Icona"
+                }
+            },
+            "alignment_style": {
+                "title": "Alineació",
+                "values": {
+                    "left": "esquerra",
+                    "center": "centrat",
+                    "right": "dreta",
+                    "space": "espaiat"
+                }
+            },
+            "color_mode": {
+                "title": "Aplica color a",
+                "values": {
+                    "background": "Fons",
+                    "icon": "Icona"
+                }
+            },
+            "layout_picker": {
+                "values": {
+                    "default": "Disseny per defecte",
+                    "vertical": "Disseny vertical",
+                    "horizontal": "Disseny horitzontal"
+                }
+            },
+            "tabs": {
+                "settings": "Configuració",
+                "appearance": "Aparença",
+                "patterns": "Patrons"
+            },
+            "refresh_rate": {
+                "title": "Interval d'actualització",
+                "helper": "Comprova canvis al calendari cada x minuts"
+            },
+            "location": {
+                "title": "Ubicació",
+                "helper": "Filtra esdeveniments per ubicació especificada. Si no n'hi ha cap, s'usen tots."
+            },
+            "only_all_day_events": {
+                "title": "Només esdeveniments de tot el dia",
+                "helper": "Activa aquesta opció si només vols usar esdeveniments de tot el dia, altrament s'usaran tots."
+            }
+        },
+        "card": {
+            "generic": {
+                "icon_color": "Color de la icona",
+                "layout": "Disseny",
+                "fill_container": "Omple el contenidor",
+                "next_days": "Dies en el futur",
+                "filter_events": "Filtra esdeveniments per patrons",
+                "drop_todayevents_from": "Des de quina hora amagar esdeveniments de tot el dia",
+                "full_size": "Targeta sense marge",
+                "use_summary": "Resum de l'esdeveniment en lloc d'etiqueta",
+                "hide_time_range": "Amaga l'hora",
+                "event_grouping": "Mostra només el proper esdeveniment per patró",
+                "icon_size": "Mida de la icona",
+                "with_label": "Mostra etiqueta"
+            },
+            "trash": {
+                "pattern": {
+                    "title": "Edita patró",
+                    "edit": "edita",
+                    "delete": "elimina",
+                    "create": "Crea nou patró",
+                    "new_custom_label": "Nou patró",
+                    "type": {
+                        "organic": "Orgànic",
+                        "paper": "Paper",
+                        "recycle": "Reciclatge",
+                        "waste": "Brossa",
+                        "others": "Altres"
+                    },
+                    "fields": {
+                        "label": "Etiqueta",
+                        "color": "Color",
+                        "icon": "Icona",
+                        "pattern": "Patró de detecció",
+                        "pattern_exact": "Usa patró exacte",
+                        "pattern_exact_description": "Usa el patró com a terme de cerca, que ha de ser 100% idèntic a la descripció de l'esdeveniment del calendari. La cerca no distingeix majúscules/minúscules.",
+                        "picture_url": "URL de la imatge",
+                        "picture_url_description": "Si s'especifica una URL d'imatge, es mostrarà la imatge corresponent en lloc de la icona. Posa una imatge a la carpeta `/config/www` i usa `/local/[nomdelarxiu]`."
+                    }
+                }
+            }
+        }
+    },
+    "card": {
+        "not_found": {
+            "title": "No hi ha entitats definides",
+            "description": "Selecciona almenys una entitat de calendari perquè TrashCard funcioni."
+        },
+        "empty": {
+            "description": "Actualment no s'han trobat esdeveniments. Aquest missatge només està disponible durant l'edició."
+        },
+        "trash": {
+            "today": "avui",
+            "tomorrow": "demà",
+            "day": "<DAY>",
+            "today_from_till": "Avui\nde <START> a <END>",
+            "tomorrow_from_till": "Demà\nentre <START> i <END>",
+            "day_from_till": "<DAY>\nentre <START> i <END>",
+            "daysleft": "en <DAYS> dia",
+            "daysleft_more": "en <DAYS> dies",
+            "daysleft_from_till": "en <DAYS> dia\nentre <START> i <END>",
+            "daysleft_more_from_till": "en <DAYS> dies\nentre <START> i <END>",
+            "daysleftend": "acaba en <DAYS> dia",
+            "daysleftend_more": "acaba en <DAYS> dies",
+            "daysleftend_till": "acaba en <DAYS> dia\na les <END>",
+            "daysleftend_more_till": "acaba en <DAYS> dies\na les <END>"
+        }
+    }
+}
